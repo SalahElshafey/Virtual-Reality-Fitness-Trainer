@@ -1,0 +1,12 @@
+
+path: D:\AASTMT (Bachelor CE)\Semester 9\Senior Project I\Graduation_Project\annotated_data
+
+train: D:/AASTMT (Bachelor CE)/Semester 9/Senior Project I/Graduation_Project/annotated_data/train/images
+val: D:/AASTMT (Bachelor CE)/Semester 9/Senior Project I/Graduation_Project/annotated_data/valid/images
+test: D:/AASTMT (Bachelor CE)/Semester 9/Senior Project I/Graduation_Project/annotated_data/test/images
+
+kpt_shape: [15, 3]  # Number of keypoints (15) and attributes per keypoint (3: x, y, visibility)
+flip_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+nc: 4  # Number of classes
+names: ['KneeToElbow', 'LowPendulum', 'Standing', 'StepOutKnee']
