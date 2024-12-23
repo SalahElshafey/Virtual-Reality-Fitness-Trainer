@@ -3,7 +3,7 @@ import cv2
 import os
 
 # Load the trained model
-model = YOLO("D:\\AASTMT (Bachelor CE)\\Semester 9\\Senior Project I\\Graduation_Project\\VR_Fitness_Trainer_Model\\runs\\pose\\pose_estimation1\\weights\\best.pt")
+model = YOLO("D:\\AASTMT (Bachelor CE)\\Semester 9\\Senior Project I\\Graduation_Project\\VR_Fitness_Trainer_Model\\runs\\pose\\pose_estimation3\\weights\\best.pt")
 
 # Path to the input video
 video_path = "C:\\Users\\hp\\Downloads\\Video.mp4"

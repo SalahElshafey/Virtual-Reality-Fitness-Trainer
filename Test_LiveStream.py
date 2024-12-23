@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Load the YOLO model
-model = YOLO("D:\\AASTMT (Bachelor CE)\\Semester 9\\Senior Project I\\Graduation_Project\\VR_Fitness_Trainer_Model\\runs\\pose\\pose_estimation1\\weights\\best.pt")
+model = YOLO("D:\\AASTMT (Bachelor CE)\\Semester 9\Senior Project I\\Graduation_Project\VR_Fitness_Trainer_Model\\Virtual-Reality-Fitness-Trainer\\runs\\pose\\pose_estimation3\\weights\\best.pt")
 
 # Open the camera
 video_source = 0  # 0 for the laptop camera
