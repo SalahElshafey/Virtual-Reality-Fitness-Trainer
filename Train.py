@@ -8,8 +8,8 @@ def main():
     print(f"✅ Using device: {'CUDA' if device == 0 else 'CPU'}")
 
     # Path to dataset config and model
-    config_path = r"F:\AASTMT (Bachelor CE)\Semester 10\Senior Project II\Graduation_Project\VR_Fitness_Trainer_Model\config.yaml"
-    model_path = r"F:\AASTMT (Bachelor CE)\Semester 10\Senior Project II\Graduation_Project\VR_Fitness_Trainer_Model\runs\pose\pose_estimation_yolov8x2\weights\last.pt"
+    config_path = r""
+    model_path = r""
 
     if not os.path.exists(config_path):
         raise FileNotFoundError(f"❌ Dataset config not found at: {config_path}")
