@@ -10,7 +10,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"🚀 Using device: {device.upper()}")
 
 # === Load Trained Pose Classification Model ===
-model_path = r"D:\AASTMT (Bachelor CE)\Semester 10\Senior Project II\Graduation_Project\VR_Fitness_Trainer_Model\runs\pose\pose_estimation_yolov8x2\weights\best.pt"
+model_path = r""
 
 if not os.path.exists(model_path):
     raise FileNotFoundError(f"❌ Model not found at: {model_path}")
@@ -18,11 +18,11 @@ if not os.path.exists(model_path):
 model = YOLO(model_path).to(device)
 
 # === MQTT Setup ===
-broker = "3c6ba859a3d04ec78f1577025c33b279.s1.eu.hivemq.cloud"
-port = 8883
-username = "youssef"
-password = "Youssef2001"
-topic = "vr"
+broker = ""
+port =
+username = ""
+password = ""
+topic = ""
 
 mqtt_client = mqtt.Client()
 mqtt_client.username_pw_set(username, password)
