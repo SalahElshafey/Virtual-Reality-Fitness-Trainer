@@ -11,7 +11,7 @@ def main():
     model = YOLO("yolov8x-pose.pt")
 
     # Path to config.yaml (with raw string to handle backslashes)
-    config_path = r"F:\AASTMT (Bachelor CE)\Semester 10\Senior Project II\Graduation_Project\VR_Fitness_Trainer_Model\config.yaml"
+    config_path = r""
 
     if not os.path.exists(config_path):
         raise FileNotFoundError(f"❌ Dataset config not found at: {config_path}")
