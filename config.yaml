@@ -1,10 +1,10 @@
 # Root dataset path (optional)
-path: F:\AASTMT (Bachelor CE)\Semester 10\Senior Project II\Graduation_Project\annotated_data
+path: 
 
 # Image directories
-train: F:\AASTMT (Bachelor CE)\Semester 10\Senior Project II\Graduation_Project\annotated_data\train\images
-val: F:\AASTMT (Bachelor CE)\Semester 10\Senior Project II\Graduation_Project\annotated_data\val\images
-test: F:\AASTMT (Bachelor CE)\Semester 10\Senior Project II\Graduation_Project\annotated_data\test\images
+train: 
+val: 
+test: 
 
 # Keypoint configuration
 kpt_shape: [15, 3]  # 15 keypoints (x, y, visibility)
