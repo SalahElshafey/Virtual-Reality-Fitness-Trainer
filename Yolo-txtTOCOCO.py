@@ -5,7 +5,7 @@ from tqdm import tqdm
 import cv2
 
 # === SETTINGS ===
-dataset_dir = r"F:\AASTMT (Bachelor CE)\Semester 10\Senior Project II\Graduation_Project\annotated_data"
+dataset_dir = r""
 splits = ["train", "val", "test"]
  # Make sure these folders exist under dataset_dir
 
