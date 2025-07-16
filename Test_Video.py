@@ -3,10 +3,10 @@ import cv2
 import os
 
 # Load the trained model
-model = YOLO("D:\\AASTMT (Bachelor CE)\\Semester 9\\Senior Project I\\Graduation_Project\\VR_Fitness_Trainer_Model\\runs\\pose\\pose_estimation3\\weights\\best.pt")
+model = YOLO("D:\\AASTMT (Bachelor CE)\\Semester 10\\Senior Project II\\Graduation_Project\\VR_Fitness_Trainer_Model\\runs\\pose\\pose_estimation_gpu5\\weights\\best.pt")
 
 # Path to the input video
-video_path = "C:\\Users\\hp\\Downloads\\Video.mp4"
+video_path = "C:\\Users\hp\Downloads\\20 MIN CARDIO HIIT WORKOUT - ALL STANDING - Full Body, No Equipment, No Repeats (online-video-cutter.com).mp4"
 cap = cv2.VideoCapture(video_path)
 
 # Check if the video file can be opened
