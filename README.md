@@ -132,5 +132,5 @@ Developed by:
 ---
 
 ##  License
-
+See the [LICENSE](./LICENSE) file for details.
 This project is for academic and non-commercial use. For licensing inquiries, please contact the authors.
